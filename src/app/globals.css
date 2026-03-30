@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom max-width — this gives you max-w-360 = 1440px */
+  --width-360: 1440px;
+}
+
+body {
+  overflow-x: hidden;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 190s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 190s linear infinite;
+}
