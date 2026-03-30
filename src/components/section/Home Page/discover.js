@@ -3,27 +3,27 @@ import Button from "../../ui/button";
 import CommonSection from "../common-hero";
 
 const companies = [
-  { name: "Company name bv.", sub: "Sustainability" },
-  { name: "Company name bv.", sub: "Transport" },
-  { name: "Company name bv.", sub: "Food" },
-  { name: "Company name bv.", sub: "Subheading" },
-  { name: "Company name bv.", sub: "Subheading" },
-  { name: "Company name bv.", sub: "Subheading" },
-  { name: "Company name bv.", sub: "Subheading" },
-  { name: "Company name bv.", sub: "Subheading" },
-  { name: "Company name bv.", sub: "Food" },
-  { name: "Company name bv.", sub: "Transport" },
-  { name: "Company name bv.", sub: "Subheading" },
-  { name: "Company name bv.", sub: "Sustainability" },
-  { name: "Company name bv.", sub: "Subheading" },
-  { name: "Company name bv.", sub: "Sustainability" },
-  { name: "Company name bv.", sub: "Subheading" },
-  { name: "Company name bv.", sub: "Sustainability" },
-  { name: "Company name bv.", sub: "Subheading" },
-  { name: "Company name bv.", sub: "Sustainability" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company1.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company2.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company3.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company4.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company6.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company3.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company4.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company2.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company1.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company5.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company6.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company4.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company1.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company4.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company2.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company3.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company5.svg" },
+  { name: "Company name bv.", sub: "Sustainability", img: "/images/company6.svg" },
 ];
 
-function CompanyCard({ name, sub }) {
+function CompanyCard({ name, sub, img }) {
   return (
     <div
       className="
@@ -38,7 +38,7 @@ function CompanyCard({ name, sub }) {
     >
       <div className="rounded-[10px] lg:rounded-[16px] bg-[#0B0B1A] flex items-center justify-center flex-shrink-0">
         <Image
-          src="/images/company-logo.svg"
+          src={img}
           alt="company-logo"
           width={66}
           height={66}
@@ -87,16 +87,15 @@ function DiscoverSection() {
       </CommonSection>
 
       <div className="w-full flex flex-col gap-[24px] sm:gap-[30px] lg:gap-[40px]">
-      
+
         <div className="w-full overflow-hidden py-[16px] sm:py-[20px] lg:py-[30px]">
           <div className="flex w-max animate-scroll-left gap-[16px] sm:gap-[24px] md:gap-[32px] lg:gap-[40px]">
             {[...companies, ...companies].map((c, i) => (
-              <CompanyCard key={i} name={c.name} sub={c.sub} />
+              <CompanyCard key={i} name={c.name} sub={c.sub} img={c.img} />
             ))}
           </div>
         </div>
 
-     
         <div
           className="w-full overflow-x-auto py-[16px] sm:py-[20px] lg:py-[30px]"
           style={{
@@ -108,13 +107,15 @@ function DiscoverSection() {
           <div className="w-full overflow-hidden py-[16px] sm:py-[20px] lg:py-[30px]">
             <div className="flex w-max animate-scroll-right gap-[16px] sm:gap-[24px] md:gap-[32px] lg:gap-[40px]">
               {[...companies, ...companies].map((c, i) => (
-                <CompanyCard key={i} name={c.name} sub={c.sub} />
+                <CompanyCard key={i} name={c.name} sub={c.sub} img={c.img} />
               ))}
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
 }
+
 export default DiscoverSection;

@@ -12,7 +12,7 @@ function AppSection() {
       <div
         className="
           w-full max-w-[1122px]
-          flex flex-col md:flex-row   /* ✅ vertical → horizontal at 768 */
+          flex flex-col md:flex-row  
           items-stretch
         "
       >

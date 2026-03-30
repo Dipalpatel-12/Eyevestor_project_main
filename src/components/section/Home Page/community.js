@@ -24,38 +24,38 @@ function CommunitySection() {
        
         <div className="flex flex-col items-center text-center gap-[16px] md:gap-[22px] max-w-[893px]">
 
-          <Button
+          {/* <Button
             className="text-black bg-[#F9F8F7] px-[12px] py-[4px] text-[12px] md:text-[14px] rounded-full"
           >
             Our community
-          </Button>
+          </Button> */}
 
           <div className="flex items-center">
             
             <Image
-              src="/images/Ellipse-61.svg"
-              alt=""
+              src="/images/Ellipse-62.svg"
+              alt="person"
               width={58}
               height={58}
-              className="w-[40px] md:w-[58px] h-auto rounded-full border-2 border-white"
+              className="w-[40px] md:w-[58px] h-auto rounded-full "
             />
             <Image
               src="/images/Ellipse-16.svg"
-              alt=""
+              alt="person"
               width={58}
               height={58}
-              className="w-[40px] md:w-[58px] h-auto rounded-full border-2 border-white -translate-x-2"
+              className="w-[40px] md:w-[58px] h-auto rounded-full  -translate-x-2"
             />
             <Image
-              src="/images/Ellipse-17.svg"
-              alt=""
+              src="/images/Ellipse-22.jpg"
+              alt="person"
               width={58}
               height={58}
-              className="w-[40px] md:w-[58px] h-auto rounded-full border-2 border-white -translate-x-4"
+              className="w-[40px] md:w-[58px] h-auto rounded-full -translate-x-4"
             />
 
          
-            <Image
+            {/* <Image
               src="/images/Ellipse-18.svg"
               alt=""
               width={58}
@@ -82,7 +82,7 @@ function CommunitySection() {
               width={58}
               height={58}
               className="hidden md:block w-[58px] h-auto rounded-full border-2 border-white -translate-x-12"
-            />
+            /> */}
           </div>
 
          

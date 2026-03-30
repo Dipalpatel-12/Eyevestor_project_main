@@ -9,11 +9,11 @@ function HowItWorksSection() {
 
           <CommonSection
             badge="How it works"
-            badgeClass="bg-[#F9F8F7] text-[#212234] py-[4px] px-[12px] rounded-[100px]"
+            badgeClass="bg-[#F15B541A] text-[#F15B54] py-[4px] px-[12px] rounded-[100px]"
             title={
               <>
                 Make your move,
-                <br /> become a <span className="text-[#F45B4F]">co-owner</span>
+                <br /> become a co-owner
               </>
             }
             titleClass="text-[28px] sm:text-[42px] md:text-[52px] xl:text-[56px]"
