@@ -134,7 +134,7 @@ export default function Footer() {
                 <div className="flex flex-row items-center gap-[16px]">
                   <Link href="#" aria-label="X / Twitter">
                     <Image
-                      src="/images/social-icon.svg"
+                      src="/images/Social-icon.svg"
                       alt="X"
                       width={24}
                       height={24}
@@ -178,7 +178,7 @@ export default function Footer() {
             </span>
             <Link href="#" aria-label="X / Twitter">
               <Image
-                src="/images/social-icon.svg"
+                src="/images/Social-icon.svg"
                 alt="X"
                 width={24}
                 height={24}
