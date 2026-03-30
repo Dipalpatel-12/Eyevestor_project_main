@@ -178,7 +178,7 @@ export default function Footer() {
             </span>
             <Link href="#" aria-label="X / Twitter">
               <Image
-                src="/images/social icon.svg"
+                src="/images/social-icon.svg"
                 alt="X"
                 width={24}
                 height={24}
