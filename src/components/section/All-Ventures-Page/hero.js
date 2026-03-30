@@ -35,56 +35,56 @@ function VenturesPage() {
             <div className=" flex gap-[27px] justify-center items-center">
               <div className="flex max-w-[407px]">
                 <Image
-                  src="/images/ellipse 61.svg"
+                  src="/images/Ellipse-61.svg"
                   alt="community"
                   width={58}
                   height={58}
                   className="rounded-full border-solid-3 border-white "
                 />
                 <Image
-                  src="/images/ellipse 16.svg"
+                  src="/images/Ellipse-16.svg"
                   alt="community"
                   width={58}
                   height={58}
                   className="rounded-full border-solid-3 border-white -translate-x-2"
                 />
                 <Image
-                  src="/images/ellipse 17.svg"
+                  src="/images/Ellipse-17.svg"
                   alt="community"
                   width={58}
                   height={58}
                   className="rounded-full border-solid-3 border-white -translate-x-4"
                 />
                 <Image
-                  src="/images/ellipse 18.svg"
+                  src="/images/Ellipse-18.svg"
                   alt="community"
                   width={58}
                   height={58}
                   className="rounded-full border-solid-3 border-white -translate-x-6"
                 />
                 <Image  
-                  src="/images/ellipse 19.svg"
+                  src="/images/Ellipse-19.svg"
                   alt="community"
                   width={58}
                   height={58}
                   className="rounded-full border-solid-3 border-white -translate-x-8"
                 />
                 <Image
-                  src="/images/ellipse 20.svg"
+                  src="/images/Ellipse-20.svg"
                   alt="community"
                   width={58}
                   height={58}
                   className="rounded-full border-solid-3 border-white -translate-x-10"
                 />
                 <Image
-                  src="/images/ellipse 62.svg"
+                  src="/images/Ellipse-62.svg"
                   alt="community"
                   width={58}
                   height={58}
                   className="rounded-full border-solid-3 border-white -translate-x-12"
                 />
                 <Image
-                  src="/images/ellipse22.jpg"
+                  src="/images/Ellipse-22.jpg"
                   alt="community"
                   width={58}
                   height={58}

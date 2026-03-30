@@ -31,7 +31,7 @@ function SharefundingInfo() {
         >
           <div className="flex items-center">
             <Image
-              src="/images/Ellipse 61.svg"
+              src="/images/Ellipse-61.svg"
               alt="user"
               width={64}
               height={64}
@@ -39,7 +39,7 @@ function SharefundingInfo() {
             />
 
             <Image
-              src="/images/Ellipse 62.svg"
+              src="/images/Ellipse-62.svg"
               alt="user"
               width={64}
               height={64}
@@ -50,7 +50,7 @@ function SharefundingInfo() {
             />
 
             <Image
-              src="/images/Ellipse 63.svg"
+              src="/images/Ellipse-63.svg"
               alt="user"
               width={64}
               height={64}

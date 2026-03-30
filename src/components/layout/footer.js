@@ -23,9 +23,9 @@ export default function Footer() {
     <footer className="w-full  bg-[#0C0D1A] relative">
   
       <div className="hidden xl:flex absolute right-0 top-[91px] items-center opacity-[0.06] z-[3] gap-0">
-        <Image src="/images/Ellipse 67.svg" alt="" width={222} height={222} />
-        <Image src="/images/Ellipse 44.svg" alt="" width={285} height={222} />
-        <Image src="/images/Ellipse 43.svg" alt="" width={159} height={218} />
+        <Image src="/images/Ellipse-67.svg" alt="" width={222} height={222} />
+        <Image src="/images/Ellipse-44.svg" alt="" width={285} height={222} />
+        <Image src="/images/Ellipse-43.svg" alt="" width={159} height={218} />
       </div>
 
       <div className="w-full max-w-[1440px] mx-auto xl:px-[32px] px-[16px] flex flex-col">
@@ -134,7 +134,7 @@ export default function Footer() {
                 <div className="flex flex-row items-center gap-[16px]">
                   <Link href="#" aria-label="X / Twitter">
                     <Image
-                      src="/images/social icon.svg"
+                      src="/images/social-icon.svg"
                       alt="X"
                       width={24}
                       height={24}

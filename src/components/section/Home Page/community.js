@@ -33,21 +33,21 @@ function CommunitySection() {
           <div className="flex items-center">
             
             <Image
-              src="/images/ellipse 61.svg"
+              src="/images/Ellipse-61.svg"
               alt=""
               width={58}
               height={58}
               className="w-[40px] md:w-[58px] h-auto rounded-full border-2 border-white"
             />
             <Image
-              src="/images/ellipse 16.svg"
+              src="/images/Ellipse-16.svg"
               alt=""
               width={58}
               height={58}
               className="w-[40px] md:w-[58px] h-auto rounded-full border-2 border-white -translate-x-2"
             />
             <Image
-              src="/images/ellipse 17.svg"
+              src="/images/Ellipse-17.svg"
               alt=""
               width={58}
               height={58}
@@ -56,28 +56,28 @@ function CommunitySection() {
 
          
             <Image
-              src="/images/ellipse 18.svg"
+              src="/images/Ellipse-18.svg"
               alt=""
               width={58}
               height={58}
               className="hidden md:block w-[58px] h-auto rounded-full border-2 border-white -translate-x-6"
             />
             <Image
-              src="/images/ellipse 19.svg"
+              src="/images/Ellipse-19.svg"
               alt=""
               width={58}
               height={58}
               className="hidden md:block w-[58px] h-auto rounded-full border-2 border-white -translate-x-8"
             />
             <Image
-              src="/images/ellipse 20.svg"
+              src="/images/Ellipse-20.svg"
               alt=""
               width={58}
               height={58}
               className="hidden md:block w-[58px] h-auto rounded-full border-2 border-white -translate-x-10"
             />
             <Image
-              src="/images/ellipse 62.svg"
+              src="/images/Ellipse-62.svg"
               alt=""
               width={58}
               height={58}
